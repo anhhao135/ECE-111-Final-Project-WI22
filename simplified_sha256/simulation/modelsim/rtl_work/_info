@@ -10,15 +10,15 @@ cModel Technology
 Z0 dC:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simulation/modelsim
 vsimplified_sha256
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1647158464
+Z2 !s110 1647163216
 !i10b 1
-!s100 ld7aXKo1Fen3bgmL;Tj=Z1
-II=TdPkXB6N]UCz>@kR<RS0
+!s100 FB@5[c8i>;VTz:4NBfnY63
+I@@g9QF6>FNIBZhB85=KNG0
 Z3 VDg1SIo80bB@j0V0VzS_@n1
 !s105 simplified_sha256_sv_unit
 S1
 R0
-w1647158371
+w1647163138
 8C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv
 FC:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv
 L0 1
@@ -26,7 +26,7 @@ Z4 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z5 !s108 1647158464.000000
+Z5 !s108 1647163216.000000
 !s107 C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv|
 !s90 -reportprogress|300|-work|work|C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv|
 !i113 1

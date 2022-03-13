@@ -1,5 +1,5 @@
 Analysis & Synthesis report for simplified_sha256
-Sat Mar 12 23:59:42 2022
+Sun Mar 13 01:19:14 2022
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -48,7 +48,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Sat Mar 12 23:59:42 2022       ;
+; Analysis & Synthesis Status       ; Successful - Sun Mar 13 01:19:14 2022       ;
 ; Quartus Prime Version             ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                     ; simplified_sha256                           ;
 ; Top-level Entity Name             ; simplified_sha256                           ;
@@ -367,22 +367,22 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Sat Mar 12 23:59:33 2022
+    Info: Processing started: Sun Mar 13 01:19:05 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off simplified_sha256 -c simplified_sha256
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file simplified_sha256.sv
     Info (12023): Found entity 1: simplified_sha256 File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 1
-Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(33): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 33
-Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(73): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 73
+Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(32): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 32
+Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(72): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 72
 Info (12127): Elaborating entity "simplified_sha256" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(61): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 61
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(46): truncated value with size 16 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 46
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(181): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 181
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(249): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 249
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(257): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 257
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(286): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 286
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(322): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 322
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(60): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 60
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(45): truncated value with size 16 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 45
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(180): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 180
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(248): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 248
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(256): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 256
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(278): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 278
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(314): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 314
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/output_files/simplified_sha256.map.smsg
@@ -393,8 +393,8 @@ Info (21057): Implemented 2866 device resources after synthesis - the final reso
     Info (21059): Implemented 51 output pins
     Info (21061): Implemented 2748 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 4896 megabytes
-    Info: Processing ended: Sat Mar 12 23:59:42 2022
+    Info: Peak virtual memory: 4900 megabytes
+    Info: Processing ended: Sun Mar 13 01:19:14 2022
     Info: Elapsed time: 00:00:09
     Info: Total CPU time (on all processors): 00:00:20
 

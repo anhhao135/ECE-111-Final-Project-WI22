@@ -97,5 +97,3 @@ run -all
 # ** Note: $stop    : C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv(262)
 #    Time: 3890 ps  Iteration: 2  Instance: /tb_simplified_sha256
 # Break in Module tb_simplified_sha256 at C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv line 262
-# End time: 01:41:36 on Mar 13,2022, Elapsed time: 0:21:17
-# Errors: 0, Warnings: 0
