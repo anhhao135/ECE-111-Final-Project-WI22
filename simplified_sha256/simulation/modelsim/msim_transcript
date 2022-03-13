@@ -10,43 +10,43 @@
 # Copying C:/intelFPGA_lite/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Repos/ECE-111/Final\ Project/Final_Project/simplified_sha256 {C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv}
+# vlog -sv -work work +incdir+C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256 {C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:57:34 on Mar 09,2022
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256" C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv 
+# Start time: 00:00:57 on Mar 13,2022
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256" C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv 
 # -- Compiling module simplified_sha256
 # 
 # Top level modules:
 # 	simplified_sha256
-# End time: 03:57:34 on Mar 09,2022, Elapsed time: 0:00:00
+# End time: 00:00:57 on Mar 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vlog -reportprogress 300 -work work {C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv}
+vlog -reportprogress 300 -work work C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:57:42 on Mar 09,2022
-# vlog -reportprogress 300 -work work C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv 
+# Start time: 00:01:04 on Mar 13,2022
+# vlog -reportprogress 300 -work work C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv 
 # -- Compiling module simplified_sha256
 # 
 # Top level modules:
 # 	simplified_sha256
-# End time: 03:57:42 on Mar 09,2022, Elapsed time: 0:00:00
+# End time: 00:01:04 on Mar 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 30 -work work {C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/tb_simplified_sha256.sv}
+vlog -reportprogress 30 -work work C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 03:57:42 on Mar 09,2022
-# vlog -reportprogress 30 -work work C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/tb_simplified_sha256.sv 
+# Start time: 00:01:04 on Mar 13,2022
+# vlog -reportprogress 30 -work work C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv 
 # -- Compiling module tb_simplified_sha256
 # 
 # Top level modules:
 # 	tb_simplified_sha256
-# End time: 03:57:42 on Mar 09,2022, Elapsed time: 0:00:00
+# End time: 00:01:04 on Mar 13,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim rtl_work.tb_simplified_sha256
-# vsim rtl_work.tb_simplified_sha256 
-# Start time: 03:57:50 on Mar 09,2022
+vsim work.tb_simplified_sha256
+# vsim work.tb_simplified_sha256 
+# Start time: 00:01:05 on Mar 13,2022
 # Loading sv_std.std
-# Loading rtl_work.tb_simplified_sha256
-# Loading rtl_work.simplified_sha256
+# Loading work.tb_simplified_sha256
+# Loading work.simplified_sha256
 add wave sim:/tb_simplified_sha256/simplified_sha256_inst/*
 run -all
 # --------
@@ -89,13 +89,13 @@ run -all
 # 
 # CONGRATULATIONS! All your hash results are correct!
 # 
-# Total number of cycles:          64
+# Total number of cycles:         192
 # 
 # 
 # ***************************
 # 
-# ** Note: $stop    : C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/tb_simplified_sha256.sv(262)
-#    Time: 1330 ps  Iteration: 2  Instance: /tb_simplified_sha256
-# Break in Module tb_simplified_sha256 at C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/tb_simplified_sha256.sv line 262
-# End time: 04:17:25 on Mar 09,2022, Elapsed time: 0:19:35
+# ** Note: $stop    : C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv(262)
+#    Time: 3890 ps  Iteration: 2  Instance: /tb_simplified_sha256
+# Break in Module tb_simplified_sha256 at C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/tb_simplified_sha256.sv line 262
+# End time: 00:29:08 on Mar 13,2022, Elapsed time: 0:28:03
 # Errors: 0, Warnings: 0

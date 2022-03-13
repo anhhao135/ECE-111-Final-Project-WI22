@@ -1,2 +1,2 @@
-Warning (10268): Verilog HDL information at simplified_sha256.sv(131): always construct contains both blocking and non-blocking assignments File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 131
-Info (10281): Verilog HDL Declaration information at simplified_sha256.sv(21): object "h" differs only in case from object "H" in the same scope File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 21
+Warning (10268): Verilog HDL information at simplified_sha256.sv(135): always construct contains both blocking and non-blocking assignments File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 135
+Info (10281): Verilog HDL Declaration information at simplified_sha256.sv(20): object "h" differs only in case from object "H" in the same scope File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 20

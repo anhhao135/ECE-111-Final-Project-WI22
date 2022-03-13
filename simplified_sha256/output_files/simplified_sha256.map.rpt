@@ -1,5 +1,5 @@
 Analysis & Synthesis report for simplified_sha256
-Wed Mar 09 04:10:26 2022
+Sat Mar 12 23:59:42 2022
 Quartus Prime Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
 
 
@@ -48,16 +48,16 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                    ;
 +-----------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status       ; Successful - Wed Mar 09 04:10:26 2022       ;
+; Analysis & Synthesis Status       ; Successful - Sat Mar 12 23:59:42 2022       ;
 ; Quartus Prime Version             ; 19.1.0 Build 670 09/22/2019 SJ Lite Edition ;
 ; Revision Name                     ; simplified_sha256                           ;
 ; Top-level Entity Name             ; simplified_sha256                           ;
 ; Family                            ; Arria II GX                                 ;
 ; Logic utilization                 ; N/A                                         ;
-;     Combinational ALUTs           ; 23,237                                      ;
+;     Combinational ALUTs           ; 1,638                                       ;
 ;     Memory ALUTs                  ; 0                                           ;
-;     Dedicated logic registers     ; 2,000                                       ;
-; Total registers                   ; 2000                                        ;
+;     Dedicated logic registers     ; 2,008                                       ;
+; Total registers                   ; 2008                                        ;
 ; Total pins                        ; 118                                         ;
 ; Total virtual pins                ; 0                                           ;
 ; Total block memory bits           ; 0                                           ;
@@ -166,28 +166,28 @@ https://fpgasoftware.intel.com/eula.
 ; Number detected on machine ; 16          ;
 ; Maximum allowed            ; 8           ;
 ;                            ;             ;
-; Average used               ; 1.01        ;
+; Average used               ; 1.00        ;
 ; Maximum used               ; 8           ;
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   0.2%      ;
-;     Processor 3            ;   0.2%      ;
-;     Processor 4            ;   0.2%      ;
-;     Processor 5            ;   0.2%      ;
-;     Processor 6            ;   0.2%      ;
-;     Processor 7            ;   0.2%      ;
-;     Processor 8            ;   0.2%      ;
+;     Processor 2            ;   0.0%      ;
+;     Processor 3            ;   0.0%      ;
+;     Processor 4            ;   0.0%      ;
+;     Processor 5            ;   0.0%      ;
+;     Processor 6            ;   0.0%      ;
+;     Processor 7            ;   0.0%      ;
+;     Processor 8            ;   0.0%      ;
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                            ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                        ; Library ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
-; simplified_sha256.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv ;         ;
-+----------------------------------+-----------------+------------------------------+-------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                   ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                               ; Library ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
+; simplified_sha256.sv             ; yes             ; User SystemVerilog HDL File  ; C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv ;         ;
++----------------------------------+-----------------+------------------------------+----------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -195,34 +195,34 @@ https://fpgasoftware.intel.com/eula.
 +-----------------------------------------------+-----------+
 ; Resource                                      ; Usage     ;
 +-----------------------------------------------+-----------+
-; Estimated ALUTs Used                          ; 23237     ;
-;     -- Combinational ALUTs                    ; 23237     ;
+; Estimated ALUTs Used                          ; 1638      ;
+;     -- Combinational ALUTs                    ; 1638      ;
 ;     -- Memory ALUTs                           ; 0         ;
 ;     -- LUT_REGs                               ; 0         ;
-; Dedicated logic registers                     ; 2000      ;
+; Dedicated logic registers                     ; 2008      ;
 ;                                               ;           ;
-; Estimated ALUTs Unavailable                   ; 0         ;
-;     -- Due to unpartnered combinational logic ; 0         ;
+; Estimated ALUTs Unavailable                   ; 15        ;
+;     -- Due to unpartnered combinational logic ; 15        ;
 ;     -- Due to Memory ALUTs                    ; 0         ;
 ;                                               ;           ;
-; Total combinational functions                 ; 23237     ;
+; Total combinational functions                 ; 1638      ;
 ; Combinational ALUT usage by number of inputs  ;           ;
-;     -- 7 input functions                      ; 0         ;
-;     -- 6 input functions                      ; 80        ;
-;     -- 5 input functions                      ; 11        ;
-;     -- 4 input functions                      ; 73        ;
-;     -- <=3 input functions                    ; 23073     ;
+;     -- 7 input functions                      ; 15        ;
+;     -- 6 input functions                      ; 140       ;
+;     -- 5 input functions                      ; 260       ;
+;     -- 4 input functions                      ; 3         ;
+;     -- <=3 input functions                    ; 1220      ;
 ;                                               ;           ;
 ; Combinational ALUTs by mode                   ;           ;
-;     -- normal mode                            ; 11677     ;
-;     -- extended LUT mode                      ; 0         ;
-;     -- arithmetic mode                        ; 3880      ;
-;     -- shared arithmetic mode                 ; 7680      ;
+;     -- normal mode                            ; 1127      ;
+;     -- extended LUT mode                      ; 15        ;
+;     -- arithmetic mode                        ; 368       ;
+;     -- shared arithmetic mode                 ; 128       ;
 ;                                               ;           ;
-; Estimated ALUT/register pairs used            ; 23734     ;
+; Estimated ALUT/register pairs used            ; 2437      ;
 ;                                               ;           ;
-; Total registers                               ; 2000      ;
-;     -- Dedicated logic registers              ; 2000      ;
+; Total registers                               ; 2008      ;
+;     -- Dedicated logic registers              ; 2008      ;
 ;     -- I/O registers                          ; 0         ;
 ;     -- LUT_REGs                               ; 0         ;
 ;                                               ;           ;
@@ -232,9 +232,9 @@ https://fpgasoftware.intel.com/eula.
 ; DSP block 18-bit elements                     ; 0         ;
 ;                                               ;           ;
 ; Maximum fan-out node                          ; clk~input ;
-; Maximum fan-out                               ; 2001      ;
-; Total fan-out                                 ; 82149     ;
-; Average fan-out                               ; 3.22      ;
+; Maximum fan-out                               ; 2009      ;
+; Total fan-out                                 ; 13004     ;
+; Average fan-out                               ; 3.35      ;
 +-----------------------------------------------+-----------+
 
 
@@ -243,7 +243,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+-------------------+--------------+
 ; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 12x12 ; DSP 18x18 ; DSP 36x36 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name       ; Library Name ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+-------------------+--------------+
-; |simplified_sha256         ; 23237 (23237)       ; 2000 (2000)               ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 118  ; 0            ; |simplified_sha256  ; simplified_sha256 ; work         ;
+; |simplified_sha256         ; 1638 (1638)         ; 2008 (2008)               ; 0                 ; 0            ; 0       ; 0         ; 0         ; 0         ; 118  ; 0            ; |simplified_sha256  ; simplified_sha256 ; work         ;
 +----------------------------+---------------------+---------------------------+-------------------+--------------+---------+-----------+-----------+-----------+------+--------------+---------------------+-------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -264,19 +264,16 @@ Encoding Type:  One-Hot
 +------------------+------------------+-------------+---------------+-------------+-----------------+------------+------------+
 
 
-+---------------------------------------------------------------------------------+
-; Registers Removed During Synthesis                                              ;
-+----------------------------------------+----------------------------------------+
-; Register name                          ; Reason for Removal                     ;
-+----------------------------------------+----------------------------------------+
-; num_blocks[2..7]                       ; Stuck at GND due to stuck port data_in ;
-; num_blocks[1]                          ; Stuck at VCC due to stuck port data_in ;
-; num_blocks[0]                          ; Stuck at GND due to stuck port data_in ;
-; state~11                               ; Lost fanout                            ;
-; state~12                               ; Lost fanout                            ;
-; state~13                               ; Lost fanout                            ;
-; Total Number of Removed Registers = 11 ;                                        ;
-+----------------------------------------+----------------------------------------+
++------------------------------------------------------------+
+; Registers Removed During Synthesis                         ;
++---------------------------------------+--------------------+
+; Register name                         ; Reason for Removal ;
++---------------------------------------+--------------------+
+; state~11                              ; Lost fanout        ;
+; state~12                              ; Lost fanout        ;
+; state~13                              ; Lost fanout        ;
+; Total Number of Removed Registers = 3 ;                    ;
++---------------------------------------+--------------------+
 
 
 +------------------------------------------------------+
@@ -284,12 +281,12 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 2000  ;
-; Number of registers using Synchronous Clear  ; 525   ;
-; Number of registers using Synchronous Load   ; 435   ;
+; Total registers                              ; 2008  ;
+; Number of registers using Synchronous Clear  ; 503   ;
+; Number of registers using Synchronous Load   ; 307   ;
 ; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 1992  ;
+; Number of registers using Clock Enable       ; 1842  ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -299,12 +296,15 @@ Encoding Type:  One-Hot
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
-; 4:1                ; 256 bits  ; 512 ALUTs     ; 256 ALUTs            ; 256 ALUTs              ; Yes        ; |simplified_sha256|h1[30]             ;
-; 4:1                ; 256 bits  ; 512 ALUTs     ; 0 ALUTs              ; 512 ALUTs              ; Yes        ; |simplified_sha256|b[8]               ;
-; 5:1                ; 16 bits   ; 48 ALUTs      ; 0 ALUTs              ; 48 ALUTs               ; Yes        ; |simplified_sha256|cur_addr[6]        ;
-; 5:1                ; 8 bits    ; 24 ALUTs      ; 0 ALUTs              ; 24 ALUTs               ; Yes        ; |simplified_sha256|j[4]               ;
-; 12:1               ; 32 bits   ; 256 ALUTs     ; 192 ALUTs            ; 64 ALUTs               ; Yes        ; |simplified_sha256|cur_write_data[21] ;
-; 9:1                ; 16 bits   ; 96 ALUTs      ; 0 ALUTs              ; 96 ALUTs               ; Yes        ; |simplified_sha256|offset[0]          ;
+; 5:1                ; 16 bits   ; 48 ALUTs      ; 0 ALUTs              ; 48 ALUTs               ; Yes        ; |simplified_sha256|cur_addr[3]        ;
+; 5:1                ; 8 bits    ; 24 ALUTs      ; 0 ALUTs              ; 24 ALUTs               ; Yes        ; |simplified_sha256|j[7]               ;
+; 5:1                ; 8 bits    ; 24 ALUTs      ; 0 ALUTs              ; 24 ALUTs               ; Yes        ; |simplified_sha256|i[7]               ;
+; 5:1                ; 256 bits  ; 768 ALUTs     ; 256 ALUTs            ; 512 ALUTs              ; Yes        ; |simplified_sha256|h3[19]             ;
+; 5:1                ; 256 bits  ; 768 ALUTs     ; 0 ALUTs              ; 768 ALUTs              ; Yes        ; |simplified_sha256|g[4]               ;
+; 6:1                ; 384 bits  ; 1536 ALUTs    ; 768 ALUTs            ; 768 ALUTs              ; Yes        ; |simplified_sha256|w[10][9]           ;
+; 6:1                ; 128 bits  ; 512 ALUTs     ; 256 ALUTs            ; 256 ALUTs              ; Yes        ; |simplified_sha256|w[0][15]           ;
+; 12:1               ; 32 bits   ; 256 ALUTs     ; 192 ALUTs            ; 64 ALUTs               ; Yes        ; |simplified_sha256|cur_write_data[12] ;
+; 9:1                ; 16 bits   ; 96 ALUTs      ; 0 ALUTs              ; 96 ALUTs               ; Yes        ; |simplified_sha256|offset[14]         ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------+
 
 
@@ -323,31 +323,32 @@ Note: In order to hide this table in the UI and the text report file, please set
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriaii_ff            ; 2000                        ;
+; arriaii_ff            ; 2008                        ;
 ;     CLR               ; 8                           ;
 ;     ENA               ; 1032                        ;
-;     ENA SCLR          ; 525                         ;
-;     ENA SLD           ; 435                         ;
+;     ENA SCLR          ; 503                         ;
+;     ENA SLD           ; 307                         ;
+;     plain             ; 158                         ;
 ; boundary_port         ; 118                         ;
-; stratixiv_lcell_comb  ; 23238                       ;
-;     arith             ; 3880                        ;
-;         1 data inputs ; 24                          ;
-;         2 data inputs ; 3605                        ;
-;         3 data inputs ; 187                         ;
-;         4 data inputs ; 64                          ;
-;     normal            ; 11678                       ;
+; stratixiv_lcell_comb  ; 1639                        ;
+;     arith             ; 368                         ;
+;         1 data inputs ; 32                          ;
+;         2 data inputs ; 326                         ;
+;         3 data inputs ; 10                          ;
+;     extend            ; 15                          ;
+;         7 data inputs ; 15                          ;
+;     normal            ; 1128                        ;
 ;         1 data inputs ; 1                           ;
-;         2 data inputs ; 960                         ;
-;         3 data inputs ; 10617                       ;
-;         4 data inputs ; 9                           ;
-;         5 data inputs ; 11                          ;
-;         6 data inputs ; 80                          ;
-;     shared            ; 7680                        ;
-;         2 data inputs ; 2042                        ;
-;         3 data inputs ; 5638                        ;
+;         2 data inputs ; 150                         ;
+;         3 data inputs ; 574                         ;
+;         4 data inputs ; 3                           ;
+;         5 data inputs ; 260                         ;
+;         6 data inputs ; 140                         ;
+;     shared            ; 128                         ;
+;         3 data inputs ; 128                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 356.50                      ;
-; Average LUT depth     ; 290.20                      ;
+; Max LUT depth         ; 7.10                        ;
+; Average LUT depth     ; 3.19                        ;
 +-----------------------+-----------------------------+
 
 
@@ -356,7 +357,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:13     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -366,41 +367,41 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 19.1.0 Build 670 09/22/2019 SJ Lite Edition
-    Info: Processing started: Wed Mar 09 04:10:04 2022
+    Info: Processing started: Sat Mar 12 23:59:33 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off simplified_sha256 -c simplified_sha256
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file simplified_sha256.sv
-    Info (12023): Found entity 1: simplified_sha256 File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 1
-Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(36): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 36
-Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(51): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 51
+    Info (12023): Found entity 1: simplified_sha256 File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 1
+Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(33): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 33
+Warning (10222): Verilog HDL Parameter Declaration warning at simplified_sha256.sv(73): Parameter Declaration in module "simplified_sha256" behaves as a Local Parameter Declaration because the module has a Module Parameter Port List File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 73
 Info (12127): Elaborating entity "simplified_sha256" for the top level hierarchy
-Warning (10036): Verilog HDL or VHDL warning at simplified_sha256.sv(19): object "wt" assigned a value but never read File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 19
-Warning (10036): Verilog HDL or VHDL warning at simplified_sha256.sv(30): object "messageLength" assigned a value but never read File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 30
-Warning (10036): Verilog HDL or VHDL warning at simplified_sha256.sv(31): object "zeroPadding" assigned a value but never read File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 31
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(185): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 185
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(252): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 252
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(261): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 261
-Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(312): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/simplified_sha256.sv Line: 312
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(61): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 61
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(46): truncated value with size 16 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 46
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(181): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 181
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(249): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 249
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(257): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 257
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(286): truncated value with size 32 to match size of target (8) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 286
+Warning (10230): Verilog HDL assignment warning at simplified_sha256.sv(322): truncated value with size 32 to match size of target (16) File: C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/simplified_sha256.sv Line: 322
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
-Info (144001): Generated suppressed messages file C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/output_files/simplified_sha256.map.smsg
+Info (144001): Generated suppressed messages file C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/output_files/simplified_sha256.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 24657 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2866 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 67 input pins
     Info (21059): Implemented 51 output pins
-    Info (21061): Implemented 24539 logic cells
+    Info (21061): Implemented 2748 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 10 warnings
-    Info: Peak virtual memory: 5032 megabytes
-    Info: Processing ended: Wed Mar 09 04:10:26 2022
-    Info: Elapsed time: 00:00:22
-    Info: Total CPU time (on all processors): 00:00:35
+    Info: Peak virtual memory: 4896 megabytes
+    Info: Processing ended: Sat Mar 12 23:59:42 2022
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:20
 
 
 +------------------------------------------+
 ; Analysis & Synthesis Suppressed Messages ;
 +------------------------------------------+
-The suppressed messages can be found in C:/Repos/ECE-111/Final Project/Final_Project/simplified_sha256/output_files/simplified_sha256.map.smsg.
+The suppressed messages can be found in C:/Repos/ECE-111-Final-Project-WI22/simplified_sha256/output_files/simplified_sha256.map.smsg.
 
 
